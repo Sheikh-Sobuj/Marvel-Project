@@ -1,0 +1,485 @@
+html, body, div, span, h1, h2, h2, h3, h4, h5, h6, hr, p, a, img, ol, ul, li, form, label, legend, caption, table, th, td, tr, article, aside, figure, figcaption, footer, header, menu, nav, section, span { margin: 0; padding: 0; font-size: 100%; }
+
+body { line-height: 1; }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1; }
+
+article, aside, footer, header, nav, section { display: block; }
+
+ol, ul { list-style: none; }
+
+a, a:hover, a:active { text-decoration: none; outline: none; }
+
+img { display: block; }
+
+body { width: 100%; height: 100%; font-size: 14px; font-weight: 400; line-height: 24px; font-family: 'Open Sans', sans-serif; /*font-family: 'Montserrat', sans-serif;*/ color: #444; }
+
+#wrapper { display: block; position: relative; width: 100%; min-width: 320px; max-width: 1920px; margin: 0 auto; overflow: hidden; }
+
+h1 { font-size: 60px; }
+
+h2 { font-size: 36px; }
+
+h3 { font-size: 36px; }
+
+h4 { font-size: 24px; }
+
+h5 { font-size: 18px; }
+
+h6 { font-size: 16px; }
+
+header { background: url("../images/header-bg.jpg") no-repeat center top; }
+
+.header-top .logo { float: left; margin-right: 140px; padding-top: 22px; }
+
+.navbar { margin-bottom: 0; background-color: #2a2a2a; border: none; border-radius: 0; }
+
+.navbar-default .navbar-nav > li { margin-right: 60px; }
+.navbar-default .navbar-nav > li:last-child { margin-right: 0; }
+.navbar-default .navbar-nav > li > a { padding: 27px 0; line-height: 24px; color: #fff; }
+.navbar-default .navbar-nav > li > a:hover { color: #ffe400; }
+
+.header-main { padding-top: 428px; padding-bottom: 325px; }
+.header-main-content { padding-right: 80px; }
+.header-main-content h1 { margin-bottom: 75px; font-weight: 900; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+.header-main-content p { margin-bottom: 20px; font-size: 13px; color: #757575; }
+.header-main-content .contact { padding: 15px 36px; font-family: 'Montserrat', sans-serif; font-size: 16px; text-transform: uppercase; background: none; border: 1px solid #444; outline: none; }
+.header-main-content .contact :focus { outline: none; }
+
+.about { padding-top: 125px; padding-bottom: 140px; background: url("../images/about-bg.png") no-repeat left center; }
+.about-title { margin-bottom: 30px; }
+.about-title:after { position: absolute; content: 'about'; bottom: -9px; left: 50%; z-index: -1; transform: translateX(-50%); font-size: 91px; font-weight: 900; font-family: 'Montserrat', sans-serif; color: #e8e8e8; }
+.about-desc { margin-bottom: 70px; font-size: 16px; text-align: center; }
+
+.section-title { position: relative; z-index: 1; font-weight: 700; font-family: 'Montserrat', sans-serif; color: #444444; text-align: center; text-transform: uppercase; }
+
+.about-cards { margin-bottom: 170px; }
+.about-cards-itm { box-sizing: border-box; min-height: 399px; padding: 63px 24px 0; color: #fff; text-align: center; background: #212121; }
+.about-cards-itm h4 { margin-bottom: 30px; font-weight: 700; color: #fff; }
+.about-cards-itm p { font-size: 16px; color: #fff; }
+.about-cards-icon { margin-bottom: 15px; font-size: 126px; color: #ffe400; }
+
+.counter-title { margin-bottom: 105px; font-size: 30px; }
+.counter-itm { text-align: center; }
+.counter-itm__numeric { margin-bottom: 10px; font-weight: 700; font-size: 46px; font-family: 'Montserrat', sans-serif; }
+.counter-itm__text { font-size: 13px; color: #757575; }
+
+.responsive { padding-top: 170px; padding-bottom: 150px; background: url("../images/responsive-bg.jpg") no-repeat center top; }
+.responsive-title { margin-bottom: 45px; font-size: 26px; text-align: left; }
+.responsive-title:after { position: absolute; content: 'responsive'; bottom: -7px; left: 0; z-index: -1; font-size: 72px; font-weight: 900; font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #f0f0f0; }
+.responsive p { margin-bottom: 40px; font-size: 16px; }
+.responsive ul { margin-bottom: 30px; }
+.responsive ul > li { position: relative; margin-bottom: 15px; padding-left: 25px; font-size: 16px; color: #757575; }
+.responsive ul > li:after { position: absolute; content: ''; top: 3px; left: 0; right: 0; display: block; width: 15px; height: 15px; background: url("../images/star.jpg") no-repeat center top; }
+.responsive ul > li:last-child { margin-bottom: 0; }
+.responsive .purchase { padding: 8px 25px; font-size: 13px; font-family: 'Montserrat', sans-serif; color: #000; text-align: center; text-transform: uppercase; background: #ffe400; border: none; }
+.responsive .purchase:focus { outline: none; }
+
+.who-we-are { padding: 150px 0 130px; background: url("../images/who-we-are-bg.jpg") no-repeat center top; text-align: center; }
+.who-we-are .logo { display: block; margin-bottom: 55px; }
+.who-we-are .logo img { margin: 0 auto; }
+.who-we-are h3 { margin-bottom: 30px; font-weight: 700; color: #fdfdfd; text-transform: uppercase; }
+.who-we-are p { margin-bottom: 64px; font-size: 16px; color: #fdfdfd; }
+.who-we-are .btn-box a { display: inline-block; width: 226px; box-sizing: border-box; margin-right: 22px; padding: 15px 20px; font-size: 18px; color: #fff; border: 1px solid #fff; }
+.who-we-are .btn-box a:hover { color: #000; background: #ffe400; border-color: #ffe400; }
+
+.features { padding-top: 160px; padding-bottom: 100px; }
+.features-title { margin-bottom: 130px; }
+.features-title:after { position: absolute; content: 'features'; bottom: -4px; left: 50%; z-index: -1; transform: translateX(-50%); font-size: 72px; font-weight: 900; font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #f0f0f0; }
+.features-itm { margin-bottom: 65px; }
+.features-itm img { float: left; }
+.features-itm h4 { margin-bottom: 25px; margin-left: 83px; font-weight: 700; font-size: 18px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+.features-itm p { margin-left: 83px; font-size: 16px; color: #757575; }
+
+.portfolio { padding-top: 100px; background-color: #ffe400; }
+.portfolio .container-fluid { padding: 0; }
+.portfolio-title { margin-bottom: 60px; }
+.portfolio-title:after { position: absolute; content: 'work'; bottom: -9px; left: 50%; z-index: -1; transform: translateX(-50%); font-size: 91px; font-weight: 900; font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; color: #e8d100; }
+.portfolio-nav { margin-bottom: 55px; text-align: center; }
+.portfolio-nav > li { display: inline-block; margin-right: 4px; border: 1px solid #000; padding: 9px 15px; font-size: 13px; font-weight: 700; font-family: 'Montserrat', sans-serif; color: #000; cursor: pointer; }
+.portfolio-nav > li.active { background: #000; color: #fff; }
+.portfolio-itms { text-align: center; }
+.portfolio-itm { position: relative; display: inline-block; margin-left: -4px; width: 25%; vertical-align: top; }
+.portfolio-itm:first-child, .portfolio-itm:nth-child(5) { margin-left: 0; }
+.portfolio-itm img { width: 100%; }
+
+.service { padding-top: 200px; padding-bottom: 25px; background: url("../images/service-bg.jpg") 0 100%/95% no-repeat; }
+.service-title { margin-bottom: 145px; font-size: 30px; }
+.service-title:after { position: absolute; content: 'service'; bottom: -9px; left: 7px; z-index: -1; font-size: 91px; font-weight: 900; font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; color: #eee; }
+.service-itm { margin-bottom: 100px; text-align: center; }
+.service-itm img { margin: 0 auto 30px; }
+.service-itm h5 { margin-bottom: 25px; font-weight: 700; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+.service-itm p { font-size: 16px; color: #757575; }
+
+.pricing { padding-top: 140px; padding-bottom: 80px; background: url("../images/pricing-bg.jpg") no-repeat center center; }
+.pricing-title { margin-bottom: 130px; }
+.pricing-title:after { position: absolute; content: 'pricing'; bottom: -9px; left: 50%; z-index: -1; transform: translateX(-50%); font-size: 91px; font-weight: 900; font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; color: #e6d119; }
+.pricing-item { text-align: center; }
+.pricing-type { padding-top: 30px; padding-bottom: 35px; }
+.pricing-type h6 { margin-bottom: 30px; font-weight: 700; font-size: 15px; color: #fff; text-transform: uppercase; letter-spacing: 0.1em; }
+.pricing-type > p { margin-bottom: 25px; font-weight: 700; font-size: 60px; color: #fff; }
+.pricing-type > p .dollar { font-size: 40px; font-weight: 400; vertical-align: top; }
+.pricing-type > p .mounth { font-size: 14px; font-weight: 400; text-transform: uppercase; }
+.pricing-type > span { color: #dbdbdb; }
+.pricing-standart { background: url("../images/standart-bg.jpg") no-repeat center top; }
+.pricing-premium { background: url("../images/premium-bg.jpg") no-repeat center top; }
+.pricing-ultimate { background: url("../images/ultimate-bg.jpg") no-repeat center top; }
+.pricing-features { background-color: #fff; border: 1px solid #f0f0f0; margin-bottom: 5px; padding-top: 65px; }
+.pricing-features > li { padding: 15px 0; font-size: 13px; color: #808080; border-bottom: 1px solid #f0f0f0; }
+.pricing-btn { display: block; padding: 12px; color: #444; background-color: #fff; }
+
+.expert { padding-top: 250px; padding-bottom: 250px; }
+.expert-title { margin-bottom: 120px; }
+.expert-title:after { position: absolute; content: 'expert'; bottom: -9px; left: 50%; z-index: -1; transform: translateX(-50%); font-size: 91px; font-weight: 900; font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; color: #f0f0f0; }
+.expert-itm { position: relative; text-align: center; }
+.expert-itm:hover { min-height: 539px; background: #ffe400; padding: 85px 20px 0; }
+.expert-itm:hover .expert-desc { background: none; padding: 0; color: #000; }
+.expert-itm:hover .expert-photo { display: none; }
+.expert-itm:hover .expert-name { margin-bottom: 20px; padding: 0; font-size: 24px; border: none; }
+.expert-itm:hover .expert-profession { margin-bottom: 70px; padding: 0; font-size: 16px; }
+.expert-itm:hover .expert-info { display: block; margin-bottom: 115px; font-size: 14px; }
+.expert-itm:hover .expert-social { display: block; border-top: 1px dashed #444; padding-top: 30px; }
+.expert-photo { margin-bottom: 7px; }
+.expert-photo img { width: 100%; }
+.expert-desc { background: #ebebeb; padding: 22px 20px; font-family: 'Montserrat', sans-serif; }
+.expert-name { border-bottom: 1px dashed #444; padding-bottom: 20px; font-weight: 700; font-size: 16px; text-transform: uppercase; }
+.expert-profession { display: block; padding-top: 15px; font-size: 11px; text-transform: uppercase; }
+.expert-info { display: none; color: #000; }
+.expert-social { display: none; }
+.expert-social > li i { color: #6b6000; }
+.expert-social > li:hover i { color: #000; }
+
+.social > li { display: inline-block; margin-right: 20px; }
+.social > li i { font-size: 22px; }
+
+.contact { padding-top: 150px; padding-bottom: 120px; background: #f0f0f0 url("../images/contact-bg.png") no-repeat center top 220px; }
+.contact-title { margin-bottom: 160px; }
+.contact-title:after { position: absolute; content: 'contact'; bottom: -9px; left: 50%; z-index: -1; transform: translateX(-50%); font-size: 91px; font-weight: 900; font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; color: #e5e5e5; }
+
+.contact-input, .contact-comment { border: 1px solid #dedede; margin-bottom: 20px; padding: 18px 15px 15px; width: 100%; outline: none; color: #808080; }
+.contact-input::placeholder, .contact-comment::placeholder { color: #808080; }
+.contact-btn { width: 100%; border: 1px solid #dedede; background: #ffe400; padding: 15px 35px; font-weight: 700; font-size: 17px; font-family: 'Montserrat', sans-serif; color: #000; text-transform: uppercase; text-align: center; }
+
+.location-map { padding: 50px 0; background: #fce41c; text-align: center; }
+.location-map-active { position: relative; font-size: 30px; font-weight: 700; font-family: 'Montserrat', sans-serif; color: #000; }
+.location-map-active:hover { color: #000; }
+.location-map-active:focus { color: #000; text-decoration: none; }
+.location-map i { vertical-align: middle; }
+
+#map-responsive { display: none; overflow: hidden; padding-bottom: 25%; position: relative; height: 0; }
+
+#map-responsive iframe { left: 0; top: 0; height: 100%; width: 100%; position: absolute; }
+
+footer { background: #212121; padding: 60px 0; font-size: 13px; color: #fff; text-align: center; }
+
+.footer-social { padding-top: 35px; }
+.footer-social i { color: #fff; }
+.footer-social a:hover i { color: #a09a9a; }
+
+.footer-phone a { color: #fff; }
+
+.footer-phone img, .footer-location img { margin: 0 auto 25px; }
+
+@media (min-width: 320px) and (max-width: 479px) { h1 { font-size: 35px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 21px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 16px; }
+  header { background-size: cover; }
+  .header-top .logo { margin-left: 15px; margin-right: 10px; padding-top: 0; }
+  .header-top .navbar-toggle { margin: 0 15px 0; }
+  .header-main { padding-top: 65px; padding-bottom: 85px; }
+  .header-main-content { padding-right: 0; }
+  .header-main-content h1 { text-align: center; margin-bottom: 50px; }
+  .header-main-content p { color: #000; }
+  .header-main-content button.contact { display: block; margin: 0 auto; padding: 8px 36px; font-size: 14px; }
+  .navbar { padding-top: 20px; padding-bottom: 20px; }
+  .navbar-collapse { border: none; box-shadow: none; }
+  .navbar-default .navbar-nav > li { display: block; margin: 0; text-align: center; }
+  .navbar-default .navbar-nav > li > a { padding: 6px 0; }
+  .about { padding-top: 90px; padding-bottom: 55px; }
+  .about-title { margin-bottom: 40px; }
+  .about-title:after { top: -45px; bottom: 0; font-size: 70px; }
+  .about-desc { margin-bottom: 30px; font-size: 14px; }
+  .about-cards { margin-bottom: 70px; }
+  .about-cards-itm { margin-bottom: 15px; padding: 10px 20px 20px; min-height: auto; }
+  .about-cards-itm h4 { margin-bottom: 15px; }
+  .about-cards-itm p { font-size: 14px; }
+  .about-cards-icon { margin-bottom: 10px; font-size: 95px; }
+  .counter-title { margin-bottom: 70px; }
+  .counter-itm { margin-bottom: 30px; }
+  .counter-itm__numeric { font-size: 36px; }
+  .responsive { background: #fafafa; padding-top: 90px; padding-bottom: 90px; }
+  .responsive-title { margin-bottom: 40px; font-size: 30px; text-align: center; }
+  .responsive-title:after { top: -27px; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 42px; }
+  .responsive p { margin-bottom: 30px; font-size: 14px; }
+  .responsive ul > li { font-size: 14px; }
+  .responsive .purchase { display: block; margin: 0 auto; }
+  .who-we-are { padding: 75px 0; }
+  .who-we-are .logo { display: none; }
+  .who-we-are p { margin-bottom: 40px; font-size: 14px; }
+  .who-we-are .btn-box a { display: block; margin: 0 auto 10px; padding: 11px 20px; width: 190px; font-size: 15px; }
+  .features { padding: 90px 0 60px; }
+  .features-title { margin-bottom: 70px; }
+  .features-title:after { top: -38px; bottom: 0; font-size: 55px; }
+  .features-itm { margin-bottom: 40px; text-align: center; }
+  .features-itm img { float: none; display: block; margin: 0 auto 10px; }
+  .features-itm h4 { margin-bottom: 15px; margin-left: 0; font-weight: 700; font-size: 18px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+  .features-itm p { margin-left: 0; font-size: 16px; color: #757575; }
+  .portfolio-title:after { top: -42px; bottom: 0; font-size: 71px; }
+  .portfolio-nav { margin-bottom: 30px; }
+  .portfolio-nav li { margin-right: 5px; margin-bottom: 5px; }
+  .portfolio-itm { width: 100%; margin-left: 0; }
+  .service { background: 0; padding-top: 100px; padding-bottom: 0; }
+  .service-title { margin-bottom: 50px; }
+  .service-title:after { top: -34px; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 55px; }
+  .service-itm { margin-bottom: 40px; }
+  .service-itm img { margin-bottom: 10px; }
+  .service-itm h5 { margin-bottom: 10px; }
+  .pricing { background-size: cover; padding-top: 70px; padding-bottom: 50px; }
+  .pricing-title { margin-bottom: 50px; }
+  .pricing-title:after { top: -32px; bottom: 0; font-size: 55px; }
+  .pricing-features { margin-bottom: 6px; padding-top: 0; }
+  .pricing-features li { padding: 10px 0; }
+  .pricing-item { max-width: 360px; margin: 0 auto 20px; }
+  .pricing-type p { margin-bottom: 5px; font-size: 45px; }
+  .pricing-type p .dollar { font-size: 30px; }
+  .expert { padding-top: 80px; padding-bottom: 70px; }
+  .expert-title { margin-bottom: 50px; }
+  .expert-title:after { top: -40px; bottom: 0; font-size: 64px; }
+  .expert-itm { max-width: 360px; margin: 0 auto 20px; }
+  .expert-photo { margin-bottom: 2px; }
+  .expert-profession { padding-top: 5px; }
+  .expert-info { display: block; margin-bottom: 15px; }
+  .expert-social { display: block; }
+  .expert-social li { margin-right: 10px; }
+  .expert-social li i { color: #000; }
+  .contact { padding-top: 80px; padding-bottom: 75px; }
+  .contact-title { margin-bottom: 40px; }
+  .contact-title:after { top: -32px; bottom: 0; font-size: 53px; }
+  .contact-input, .contact-comment { margin-bottom: 12px; padding: 10px 15px; }
+  .contact-comment { min-height: 250px; }
+  .location-map { padding: 25px 0; }
+  .location-map-active { font-size: 20px; }
+  #map-responsive { padding-bottom: 50%; }
+  footer { padding: 40px 0; }
+  .footer-phone img { margin-bottom: 10px; }
+  .footer-social { padding: 25px 0; }
+  .footer-location img { margin-bottom: 10px; } }
+@media (min-width: 480px) and (max-width: 639px) { h1 { font-size: 45px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 21px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 16px; }
+  header { background-size: cover; }
+  .header-top .logo { margin-left: 15px; margin-right: 10px; padding-top: 0; }
+  .header-top .navbar-toggle { margin: 0 15px 0; }
+  .header-main { padding-top: 100px; padding-bottom: 100px; }
+  .header-main-content { padding-right: 0; }
+  .header-main-content h1 { text-align: center; margin-bottom: 50px; }
+  .header-main-content p { margin-bottom: 30px; color: #000; }
+  .header-main-content button.contact { display: block; margin: 0 auto; padding: 8px 36px; font-size: 14px; }
+  .navbar { padding-top: 20px; padding-bottom: 20px; }
+  .navbar-collapse { border: none; box-shadow: none; }
+  .navbar-default .navbar-nav > li { display: block; margin: 0; text-align: center; }
+  .navbar-default .navbar-nav > li > a { padding: 6px 0; }
+  .about { padding-bottom: 70px; }
+  .about-title:after { top: -47px; bottom: 0; font-size: 70px; }
+  .about-desc { font-size: 14px; }
+  .about-cards { margin-bottom: 100px; }
+  .about-cards-itm { margin-bottom: 15px; padding: 20px 20px 40px; min-height: auto; }
+  .about-cards-itm h4 { margin-bottom: 15px; }
+  .about-cards-itm p { font-size: 14px; }
+  .counter-title { margin-bottom: 70px; }
+  .counter-itm { margin-bottom: 30px; }
+  .counter-itm__numeric { font-size: 36px; }
+  .responsive { background: #fafafa; padding-top: 110px; padding-bottom: 90px; }
+  .responsive-title { margin-bottom: 40px; font-size: 30px; text-align: center; }
+  .responsive-title:after { top: -37px; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 59px; }
+  .responsive p { margin-bottom: 30px; font-size: 14px; }
+  .responsive ul > li { font-size: 14px; }
+  .responsive .purchase { display: block; margin: 0 auto; }
+  .who-we-are { padding: 75px 0; }
+  .who-we-are .logo { display: none; }
+  .who-we-are p { margin-bottom: 40px; font-size: 14px; }
+  .who-we-are .btn-box a { display: block; margin: 0 auto 10px; padding: 11px 20px; width: 190px; font-size: 15px; }
+  .features { padding: 90px 0 60px; }
+  .features-title { margin-bottom: 70px; }
+  .features-title:after { top: -46px; bottom: 0; font-size: 65px; }
+  .features-itm { margin-bottom: 40px; text-align: center; }
+  .features-itm img { float: none; display: block; margin: 0 auto 10px; }
+  .features-itm h4 { margin-bottom: 15px; margin-left: 0; font-weight: 700; font-size: 18px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+  .features-itm p { margin-left: 0; font-size: 16px; color: #757575; }
+  .portfolio-title:after { top: -42px; bottom: 0; font-size: 71px; }
+  .portfolio-nav { margin-bottom: 30px; }
+  .portfolio-nav li { margin-right: 5px; margin-bottom: 5px; }
+  .portfolio-itm { width: 100%; margin-left: 0; }
+  .service { background: 0; padding-top: 100px; padding-bottom: 0; }
+  .service-title { margin-bottom: 50px; }
+  .service-title:after { top: -44px; bottom: 0; left: 50%; transform: translateX(-50%); font-size: 65px; }
+  .service-itm { margin-bottom: 40px; }
+  .service-itm img { margin-bottom: 10px; }
+  .service-itm h5 { margin-bottom: 10px; }
+  .pricing { background-size: cover; padding-top: 70px; padding-bottom: 50px; }
+  .pricing-title { margin-bottom: 50px; }
+  .pricing-title:after { top: -43px; bottom: 0; font-size: 65px; }
+  .pricing-features { margin-bottom: 6px; padding-top: 0; }
+  .pricing-features li { padding: 10px 0; }
+  .pricing-item { max-width: 360px; margin: 0 auto 20px; }
+  .pricing-type h6 { font-size: 20px; }
+  .pricing-type p { margin-bottom: 5px; font-size: 45px; }
+  .pricing-type p .dollar { font-size: 30px; }
+  .expert { padding-top: 80px; padding-bottom: 70px; }
+  .expert-title { margin-bottom: 50px; }
+  .expert-title:after { top: -40px; bottom: 0; font-size: 64px; }
+  .expert-itm { max-width: 360px; margin: 0 auto 20px; }
+  .expert-photo { margin-bottom: 2px; }
+  .expert-profession { padding-top: 5px; }
+  .expert-info { display: block; margin-bottom: 15px; }
+  .expert-social { display: block; }
+  .expert-social li { margin-right: 10px; }
+  .expert-social li i { color: #000; }
+  .contact { padding-top: 80px; padding-bottom: 75px; }
+  .contact-title { margin-bottom: 40px; }
+  .contact-title:after { top: -32px; bottom: 0; font-size: 53px; }
+  .contact-input, .contact-comment { margin-bottom: 12px; padding: 10px 15px; }
+  .contact-comment { min-height: 250px; }
+  .location-map { padding: 25px 0; }
+  .location-map-active { font-size: 20px; }
+  #map-responsive { padding-bottom: 50%; }
+  footer { padding: 40px 0; }
+  .footer-phone img { margin-bottom: 10px; }
+  .footer-social { padding: 25px 0; }
+  .footer-location img { margin-bottom: 10px; } }
+@media screen and (min-width: 640px) and (max-width: 767px) { h1 { font-size: 50px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 21px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 16px; }
+  header { background-size: cover; }
+  .header-top .logo { margin-left: 15px; margin-right: 10px; padding-top: 0; }
+  .header-top .navbar-toggle { margin: 0 15px 0; }
+  .header-main { padding-top: 100px; padding-bottom: 100px; }
+  .header-main-content { padding-right: 0; }
+  .header-main-content h1 { text-align: center; margin-bottom: 50px; }
+  .header-main-content p { margin-bottom: 30px; color: #000; }
+  .header-main-content button.contact { display: block; margin: 0 auto; padding: 8px 36px; font-size: 14px; }
+  .navbar { padding-top: 20px; padding-bottom: 20px; }
+  .navbar-collapse { border: none; box-shadow: none; }
+  .navbar-default .navbar-nav > li { display: block; margin: 0; text-align: center; }
+  .navbar-default .navbar-nav > li > a { padding: 6px 0; }
+  .about { padding-bottom: 70px; }
+  .about-desc { font-size: 14px; }
+  .about-cards { margin-bottom: 100px; }
+  .about-cards-itm { margin-bottom: 15px; padding: 20px 20px 40px; min-height: auto; }
+  .about-cards-itm h4 { margin-bottom: 15px; }
+  .about-cards-itm p { font-size: 14px; }
+  .counter-title { margin-bottom: 70px; }
+  .counter-itm { margin-bottom: 30px; }
+  .counter-itm__numeric { font-size: 36px; }
+  .responsive { padding: 100px 0; }
+  .who-we-are { padding: 100px 0; }
+  .who-we-are .logo { margin-bottom: 25px; }
+  .features { padding: 120px 0 60px; }
+  .features-title { margin-bottom: 70px; }
+  .features-title:after { top: -37px; bottom: 0; }
+  .features-itm { margin-bottom: 40px; text-align: center; }
+  .features-itm img { float: none; display: block; margin: 0 auto 10px; }
+  .features-itm h4 { margin-bottom: 15px; margin-left: 0; font-weight: 700; font-size: 18px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+  .features-itm p { margin-left: 0; font-size: 16px; color: #757575; }
+  .portfolio-title:after { font-size: 75px; top: -33px; bottom: 0; }
+  .service { background: none; padding-top: 140px; }
+  .service-title { margin-bottom: 70px; }
+  .service-title:after { bottom: 0; top: -46px; left: 0; z-index: -1; font-size: 75px; }
+  .service-itm { margin-bottom: 50px; }
+  .service-itm img { margin-bottom: 15px; }
+  .service-itm h5 { margin-bottom: 10px; }
+  .pricing { padding-top: 110px; background-size: cover; }
+  .pricing-title { margin-bottom: 100px; }
+  .pricing-title:after { top: -40px; bottom: 0; font-size: 75px; }
+  .pricing-item { max-width: 360px; margin: 0 auto 25px; }
+  .expert { padding-top: 110px; padding-bottom: 100px; }
+  .expert-title { margin-bottom: 80px; }
+  .expert-title:after { top: -40px; bottom: 0; font-size: 75px; }
+  .expert-itm { max-width: 360px; margin: 0 auto 25px; }
+  .contact { padding-top: 110px; }
+  .contact-title { margin-bottom: 80px; }
+  .contact-title:after { top: -40px; bottom: 0; font-size: 75px; }
+  .location-map { padding: 25px 0; }
+  .location-map-active { font-size: 20px; }
+  #map-responsive { padding-bottom: 30%; }
+  footer { padding: 40px 0; }
+  .footer-phone img { margin-bottom: 10px; }
+  .footer-social { padding: 25px 0; }
+  .footer-location img { margin-bottom: 10px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) { h4 { font-size: 20px; }
+  .header-top .logo { margin-right: 20px; }
+  .navbar-default .navbar-nav { float: right; }
+  .navbar-default .navbar-nav > li { margin-right: 15px; }
+  .header-main { padding-top: 150px; padding-bottom: 120px; }
+  .header-main-content h1 { margin-bottom: 40px; }
+  .about-cards { margin-bottom: 110px; }
+  .about-cards-itm { padding: 20px 20px 40px; min-height: auto; }
+  .about-cards-itm h4 { margin-bottom: 10px; }
+  .about-cards-itm p { font-size: 14px; }
+  .counter-title { margin-bottom: 80px; }
+  .counter-itm__numeric { font-size: 40px; }
+  .responsive { padding-top: 120px; padding-bottom: 80px; }
+  .who-we-are { padding-top: 110px; }
+  .who-we-are .logo { margin-bottom: 30px; }
+  .who-we-are p { margin-bottom: 40px; }
+  .who-we-are .btn-box a { width: 190px; padding: 10px 22px; font-size: 16px; }
+  .features { padding-top: 120px; padding-bottom: 50px; }
+  .features-title { margin-bottom: 80px; }
+  .features-title:after { top: -40px; bottom: 0; }
+  .service { background: url(../images/service-bg.jpg) 0 100%/85% no-repeat; padding-top: 135px; }
+  .service-title { margin-bottom: 80px; }
+  .pricing { background-size: cover; }
+  .pricing-title { margin-bottom: 80px; }
+  .pricing-item { margin: 0 -10px; }
+  .pricing-features { padding-top: 10px; }
+  .expert { padding-top: 110px; padding-bottom: 80px; }
+  .expert-title { margin-bottom: 80px; }
+  .contact { padding-top: 110px; }
+  .contact-title { margin-bottom: 80px; }
+  .footer-phone img { margin-bottom: 10px; }
+  .footer-location img { margin-bottom: 10px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) { h4 { font-size: 20px; }
+  .header-top .logo { margin-right: 20px; }
+  .navbar-default .navbar-nav { float: right; }
+  .navbar-default .navbar-nav > li { margin-right: 35px; }
+  .header-main { padding-top: 170px; padding-bottom: 150px; }
+  .header-main-content h1 { margin-bottom: 40px; }
+  .about { padding-top: 145px; }
+  .about-cards { margin-bottom: 110px; }
+  .about-cards-itm { padding: 20px 20px 40px; min-height: auto; }
+  .about-cards-itm h4 { margin-bottom: 10px; }
+  .about-cards-itm p { font-size: 14px; }
+  .counter-title { margin-bottom: 80px; }
+  .counter-itm__numeric { font-size: 40px; }
+  .responsive { padding-top: 120px; padding-bottom: 80px; }
+  .who-we-are { padding-top: 110px; }
+  .who-we-are .logo { margin-bottom: 30px; }
+  .who-we-are p { margin-bottom: 40px; }
+  .who-we-are .btn-box a { width: 190px; padding: 10px 22px; font-size: 16px; }
+  .features { padding-top: 150px; padding-bottom: 50px; }
+  .features-title { margin-bottom: 80px; }
+  .features-title:after { top: -40px; bottom: 0; }
+  .service { background: url(../images/service-bg.jpg) 0 100%/100% no-repeat; padding-top: 135px; }
+  .service-title { margin-bottom: 80px; }
+  .service-title:after { top: -43px; bottom: 0; font-size: 80px; }
+  .service-itm { margin-bottom: 30px; }
+  .service-itm h5 { font-size: 17px; margin-bottom: 10px; }
+  .pricing { background-size: cover; }
+  .pricing-title { margin-bottom: 80px; }
+  .pricing-item { margin: 0 -10px; }
+  .pricing-features { padding-top: 10px; }
+  .expert { padding-top: 110px; padding-bottom: 80px; }
+  .expert-title { margin-bottom: 80px; }
+  .contact { padding-top: 110px; }
+  .contact-title { margin-bottom: 80px; }
+  .footer-phone img { margin-bottom: 10px; }
+  .footer-location img { margin-bottom: 10px; } }
